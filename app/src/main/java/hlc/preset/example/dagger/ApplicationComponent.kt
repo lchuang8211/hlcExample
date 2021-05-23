@@ -7,6 +7,7 @@ import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule
 import hlc.preset.example.base.HLCApplication
 import hlc.preset.example.dagger.viewModule.MainActivityModule
+import hlc.preset.example.dagger.viewModule.MainFragmentModule
 import javax.inject.Singleton
 
 
@@ -20,7 +21,8 @@ import javax.inject.Singleton
         RepositoryModule::class,
         AndroidSupportInjectionModule::class,
         //
-        MainActivityModule::class
+        MainActivityModule::class,
+        MainFragmentModule::class
     ]
 )
 interface ApplicationComponent : AndroidInjector<HLCApplication> {

@@ -16,7 +16,7 @@
         android:theme="@style/FullScreen"
         android:usesCleartextTraffic="true">
 
-        <activity android:name="hlc.preset.example.ui.MainActivity">
+        <activity android:name="hlc.preset.example.ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

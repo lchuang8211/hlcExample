@@ -1,4 +1,4 @@
-package hlc.preset.example.ui
+package hlc.preset.example.ui.main
 
 import android.os.Bundle
 import androidx.activity.viewModels
