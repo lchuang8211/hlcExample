@@ -26,5 +26,7 @@ class MainActivity @Inject constructor() : BaseActivity() {
         binding.viewModel = viewModel
         binding.lifecycleOwner = this
 
+        binding.tvText.text = "hlc flow"
+
     }
 }
